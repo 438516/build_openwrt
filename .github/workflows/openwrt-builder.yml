@@ -96,6 +96,8 @@ jobs:
           ./scripts/feeds update -a
           sed -i 's#GO_PKG_TARGET_VARS.*# #g' feeds/packages/utils/v2dat/Makefile 
           ./scripts/feeds install -a
+          chmod +x $DIY_P1_SH
+          chmod +x $DIY_P2_SH
           cp -f diy/x86/.config .config
 
       - name: Download package
