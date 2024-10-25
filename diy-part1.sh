@@ -39,7 +39,7 @@ sed -i "/helloworld/d" "feeds.conf.default"
 #echo "src-git OpenClash https://github.com/vernesong/OpenClash.git;master" >> "feeds.conf.default"
 #echo "src-git netspeedtest https://github.com/sirpdboy/netspeedtest.git;master" >> "feeds.conf.default"
 #echo "src-git diskman https://github.com/careysucci/luci-app-diskman.git;master" >> "feeds.conf.default"
-#echo "src-git homeproxy https://github.com/immortalwrt/homeproxy.git;master" >> "feeds.conf.default"
+echo "src-git homeproxy https://github.com/immortalwrt/homeproxy.git;master" >> "feeds.conf.default"
 #sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' "feeds.conf.default"
 #sed -i '2i src-git small https://github.com/kenzok8/small' "feeds.conf.default"
 
