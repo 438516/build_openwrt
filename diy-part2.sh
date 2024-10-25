@@ -26,3 +26,6 @@ sed -i 's/192.168.1.1/192.168.123.1/g' package/base-files/files/bin/config_gener
 
 # Modify hostname
 sed -i 's/OpenWrt/N4505/g' package/base-files/files/bin/config_generate
+
+# 编译内核版本
+sed -i 's/KERNEL_PATCHVER:=6.1/KERNEL_PATCHVER:=6.6/g' ./target/linux/x86/Makefile
